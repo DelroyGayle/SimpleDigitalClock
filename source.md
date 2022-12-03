@@ -270,7 +270,7 @@ Now that we’ve got this out of the way, let’s go on to declare other variabl
   let month = date.getMonth();
   let dateNum = date.getDate();
   let year = date.getFullYear();
-  var months = [
+  const months = [
     "January",
     "February",
     "March",
@@ -284,7 +284,7 @@ Now that we’ve got this out of the way, let’s go on to declare other variabl
     "November",
     "December",
   ];
-  var week = [
+  const week = [
     "Sunday",
     "Monday",
     "Tuesday",
@@ -317,7 +317,7 @@ function updateClock(){
   let month= date.getMonth();
   let dateNum= date.getDate();
   let year= date.getFullYear();
-  var months = [
+  const months = [
     "January",
     "February",
     "March",
@@ -331,7 +331,7 @@ function updateClock(){
     "November",
     "December",
   ];
-  var week = [
+  const week = [
     "Sunday",
     "Monday",
     "Tuesday",
@@ -414,7 +414,7 @@ function updateClock(){
   let month= date.getMonth();
   let dateNum= date.getDate();
   let year= date.getFullYear();
-  var months = [
+  const months = [
     "January",
     "February",
     "March",
@@ -428,7 +428,7 @@ function updateClock(){
     "November",
     "December",
   ];
-  var week = [
+  const week = [
     "Sunday",
     "Monday",
     "Tuesday",
